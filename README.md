@@ -9,5 +9,5 @@ Componentes necessários para você montar sua primeira Mountain-bike
 - Dianteiro: 
 - Acento
 - Centro
-- Traseiro
+- Traseira
 
