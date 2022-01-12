@@ -6,6 +6,8 @@ Peças necessárias para funcionamento dianteiro :ferris_wheel:
 
 - Pneu/ camará 
 
+- Aro
+
 - Freio
 
 - Cabos e conduites
