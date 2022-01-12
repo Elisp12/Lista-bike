@@ -11,5 +11,3 @@ Componentes necessários para você montar sua primeira Mountain-bike
 - Centro
 - Traseira
 
-![Alt text](C:\Users\Eliseu\Desktop\bike.jpg)
-
