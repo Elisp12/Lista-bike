@@ -10,7 +10,7 @@ public class MostraMTB//inicio a classe como pública e declaro as propriedades 
 public class lista//e esta utilizo  para objeto
 {
     static void Main(String[] args)//método
-    {//aqui chamo a classe onde declarei as propriedades, adiciono um novo nome, uso o operador NEW e istanciei um novo objeto da classe jogador.   
+    {//aqui chamo a classe onde declarei as propriedades, adiciono um novo nome, uso o operador NEW e istanciei um novo objeto da classe MostraMTB.   
        //OBS.: operador NEW -> reserva um espaço na memória para o objeto. o bjeto fica independente um do outro
         MostraMTB baike1=new MostraMTB();
         MostraMTB baike2=new MostraMTB();
