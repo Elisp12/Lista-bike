@@ -1,0 +1,15 @@
+C:\Users\Eliseu\Desktop\DIO\Lista-bike\CSprogram\catalogo\bin\Debug\net6.0\catalogo.exe
+C:\Users\Eliseu\Desktop\DIO\Lista-bike\CSprogram\catalogo\bin\Debug\net6.0\catalogo.deps.json
+C:\Users\Eliseu\Desktop\DIO\Lista-bike\CSprogram\catalogo\bin\Debug\net6.0\catalogo.runtimeconfig.json
+C:\Users\Eliseu\Desktop\DIO\Lista-bike\CSprogram\catalogo\bin\Debug\net6.0\catalogo.dll
+C:\Users\Eliseu\Desktop\DIO\Lista-bike\CSprogram\catalogo\bin\Debug\net6.0\ref\catalogo.dll
+C:\Users\Eliseu\Desktop\DIO\Lista-bike\CSprogram\catalogo\bin\Debug\net6.0\catalogo.pdb
+C:\Users\Eliseu\Desktop\DIO\Lista-bike\CSprogram\catalogo\obj\Debug\net6.0\catalogo.csproj.AssemblyReference.cache
+C:\Users\Eliseu\Desktop\DIO\Lista-bike\CSprogram\catalogo\obj\Debug\net6.0\catalogo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eliseu\Desktop\DIO\Lista-bike\CSprogram\catalogo\obj\Debug\net6.0\catalogo.AssemblyInfoInputs.cache
+C:\Users\Eliseu\Desktop\DIO\Lista-bike\CSprogram\catalogo\obj\Debug\net6.0\catalogo.AssemblyInfo.cs
+C:\Users\Eliseu\Desktop\DIO\Lista-bike\CSprogram\catalogo\obj\Debug\net6.0\catalogo.csproj.CoreCompileInputs.cache
+C:\Users\Eliseu\Desktop\DIO\Lista-bike\CSprogram\catalogo\obj\Debug\net6.0\catalogo.dll
+C:\Users\Eliseu\Desktop\DIO\Lista-bike\CSprogram\catalogo\obj\Debug\net6.0\ref\catalogo.dll
+C:\Users\Eliseu\Desktop\DIO\Lista-bike\CSprogram\catalogo\obj\Debug\net6.0\catalogo.pdb
+C:\Users\Eliseu\Desktop\DIO\Lista-bike\CSprogram\catalogo\obj\Debug\net6.0\catalogo.genruntimeconfig.cache
