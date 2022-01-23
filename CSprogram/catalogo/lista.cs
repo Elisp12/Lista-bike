@@ -1,30 +1,63 @@
-﻿// classe orientada a objeto
-using System;
-public class MostraMTB//inicio a classe como pública e declaro as propriedades da mesma forma
+﻿using System;
+namespace catalogo
 {
-    public string nome = ""; 
-    public string cor = "";
-    public int tamanho;
-    public float preco;
-}
-public class lista//e esta utilizo  para objeto
-{
-    static void Main(String[] args)//método
-    {//aqui chamo a classe onde declarei as propriedades, adiciono um novo nome, uso o operador NEW e istanciei um novo objeto da classe MostraMTB.   
-       //OBS.: operador NEW -> reserva um espaço na memória para o objeto. o bjeto fica independente um do outro
-        MostraMTB baike1=new MostraMTB();
-        MostraMTB baike2=new MostraMTB();
-        MostraMTB baike3=new MostraMTB();
+    public class lista
+    {
+        //metodo que mostra menu ao cliente
+        private static string opcaoDoCliente()
+        {
+            Console.WriteLine("\n"+"---------CATALOGO MOUNTAIN BIKE----------" + "\n");
+            Console.WriteLine("Escolha uma das opções" + "\n");
+            Console.WriteLine("[1] Mostrar bike popular");
+            Console.WriteLine("[2] Mostrar bike mais acessível");
+            Console.WriteLine("[3] Catálogo Completo" + "\n");
+            Console.WriteLine("[X] Sair!");
 
-     // aqui acesso as propriedades e posso altera-las para o objeto criado independentemente. 
-        baike1.nome = "MTB001";
-        baike1.cor = "Preto";
-        baike1.tamanho = 19; 
-        baike1.preco = 1950.00f;
-     
-        Console.WriteLine("------------------CATÁLOGO-----------------\n");
-        Console.Write("Mountain bike 1 | nome/modelo: ");
-        Console.Write(baike1.nome);
+            //mostra opcção para usuário
+            string opcaoCliente = Console.ReadLine();
+            Console.WriteLine(); //pula uma linha
+            return opcaoCliente;
+        }
 
+        static void Main(String[] args)
+        {
+            // chamo classe modelos e instanciando um arrey
+            modelos[] modelo = new modelos[4];
+
+            string opcaoCliente = opcaoDoCliente();// catalogo
+            while (opcaoCliente.ToUpper() != "X"){//obs Toupper() != tipo de caixa digitado
+                switch(opcaoCliente)
+                {
+                    case "1":
+                    // mostra bike popular
+                        modelos bike1 = new modelos();
+                        bike1.nomeModelo = "Mountain baike, MTB0001";
+                        bike1.cor = "Preto";
+                        bike1.tm = 19;
+
+                        Console.WriteLine("Mountain Bikes mais Populares" + "\n");
+                        Console.Write("Nome Modelo: ");
+                        Console.WriteLine(bike1.nomeModelo);
+                        Console.Write("Cor: ");
+                        Console.WriteLine(bike1.cor);
+                        Console.Write("Tamanho: ");
+                        Console.WriteLine(bike1.tm);
+
+                        Console.WriteLine();
+                        break;
+                        case "2":
+                        //mostra baike mais acessíveis
+                        break;
+                        case "3":
+                        // catálogo completo
+                        break;
+                        default:
+                        //dispara uma ecessao ate que a iformação seja igual "X", repete ate que o mesmo seja digitado, fechando o programa.
+                        throw new ArgumentOutOfRangeException();
+                }
+                opcaoCliente = opcaoDoCliente();
+            }
+
+        }
     }
-} 
+}
