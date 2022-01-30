@@ -1,0 +1,7 @@
+"Lembrete" 
+
+[Passos]
+- esqueleto pronto
+
+[Proximos passos]
+- Gerar condições 
